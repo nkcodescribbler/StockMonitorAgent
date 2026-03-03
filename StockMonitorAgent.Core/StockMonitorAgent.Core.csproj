@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>StockMonitorAgent.Core</RootNamespace>
+  </PropertyGroup>
+
+  <!-- No external packages needed: Anthropic API is called via raw HttpClient,
+       Yahoo Finance is a free REST endpoint — zero NuGet dependencies. -->
+
+</Project>

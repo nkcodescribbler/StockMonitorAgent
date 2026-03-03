@@ -1,0 +1,40 @@
+# Build output
+bin/
+obj/
+out/
+
+# Visual Studio artifacts
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# IDE
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets — never commit API keys
+.env
+*.env
+appsettings.*.json
+secrets.json
+local.settings.json
+
+# Publish profiles
+PublishProfiles/
